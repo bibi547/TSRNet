@@ -12,6 +12,8 @@ Mesh simplification can be achieved using functions from [Open3D](https://www.op
 
 ### 3. Extracting Geodesic Distance Maps
 
+[./scripts/geodesic_distance.py](https://github.com/bibi547/TSRNet/tree/master/scripts)
+
 Geodesic distance maps are extracted during the data preprocessing phase. 
 Based on the ground truth and the coarse segmentation results, extract the segmentation boundaries (vertices). 
 Then, compute the shortest geodesic distance from mesh vertices to the segmentation boundaries and save the results as '.txt' files.
