@@ -13,6 +13,7 @@ from utils.metrics import get_refined_labels
 @click.command()
 @click.option('--gpus', default=1)
 def run(gpus):
+
     weight_file = 'E:/code/tooth_seg/TSRNet_git/runs/teeth3ds/version_2/checkpoints/last.ckpt'
     # write_path = 'F:/dataset/Teeth3DS/results/dgcnn/upper_refined/'
     model = LitModel.load_from_checkpoint(weight_file).cuda()
