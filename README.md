@@ -1,6 +1,4 @@
-# TSRNet
-
-## TSRNet: A Dual-stream Network for Refining 3D Tooth Segmentation
+# TSRNet: A Dual-stream Network for Refining 3D Tooth Segmentation
 
 ### 1. Mesh Simplification
 
