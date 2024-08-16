@@ -57,5 +57,6 @@ python test.py
 
 [Point Transformer](https://github.com/qq456cvb/Point-Transformers)
 
+[Teeth3DS dataset](https://github.com/abenhamadou/3dteethseg22_challenge)
 
 
