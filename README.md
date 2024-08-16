@@ -1,5 +1,7 @@
 # TSRNet: A Dual-stream Network for Refining 3D Tooth Segmentation
 
+## Run
+
 ### 1. Mesh Simplification
 
 Mesh simplification can be achieved using functions from [Open3D](https://www.open3d.org/docs/release/tutorial/geometry/mesh.html) or through implementations by [MeshCNN](https://github.com/ranahanocka/MeshCNN/blob/master/scripts/dataprep/blender_process.py), which utilize the bpy library.
@@ -37,7 +39,7 @@ python train.py
 python test.py
 ```
 
-### Citation
+## Citation
 
 ```
 @article{jin2024tsrnet,
@@ -49,7 +51,7 @@ python test.py
 }
 ```
 
-### Acknowledgement
+## Acknowledgement
 
 [MeshCNN](https://github.com/ranahanocka/MeshCNN/blob/master/scripts/dataprep/blender_process.py)
 
