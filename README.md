@@ -28,7 +28,8 @@ Modify the [config](https://github.com/bibi547/TSRNet/blob/master/config/teeth3d
 
 ### 5. Train
 
-"""python train.py"""
+"""python 
+python train.py"""
 
 
 ### 6. Evaluation
