@@ -26,12 +26,38 @@ Modify the [config](https://github.com/bibi547/TSRNet/blob/master/config/teeth3d
 
 ...
 
-### 5. Train
+### 6. Train
 
 ```
 python train.py
 ```
 
 
-### 6. Evaluation
+### 7. Test
+
+```
+python test.py
+```
+
+### Citation
+
+```
+@article{jin2024tsrnet,
+  title={TSRNet: A Dual-stream Network for Refining 3D Tooth Segmentation},
+  author={Jin, Hairong and Shen, Yuefan and Lou, Jianwen and Zhou, Kun and Zheng, Youyi},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2024},
+  publisher={IEEE}
+}
+```
+
+### Acknowledgement
+
+[MeshCNN](https://github.com/ranahanocka/MeshCNN/blob/master/scripts/dataprep/blender_process.py)
+
+[DGCNN](https://github.com/WangYueFt/dgcnn)
+
+[Point Transformer](https://github.com/qq456cvb/Point-Transformers)
+
+
 
