@@ -1,7 +1,5 @@
 from models.pointnet_utils import index_points
-import torch
 import torch.nn as nn
-import torch.nn.parallel
 import torch.utils.data
 import numpy as np
 import torch.nn.functional as F
