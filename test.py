@@ -14,7 +14,7 @@ from utils.metrics import get_refined_labels
 @click.option('--gpus', default=1)
 def run(gpus):
 
-    weight_file = 'E:/code/tooth_refine/TSRNet/runs/teeth3ds/best.ckpt'
+    weight_file = 'E:/code/tooth_refine/TSRNet/runs/teeth3ds/upper.ckpt'
     # write_path = 'F:/dataset/Teeth3DS/results/dgcnn/upper_refined/'
     model = LitModel.load_from_checkpoint(weight_file).cuda()
     args = model.hparams.args
