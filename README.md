@@ -4,6 +4,7 @@
 
 ### 1. Mesh Simplification
 
+Simplify original tooth meshes to about 10,000 facets. 
 Mesh simplification can be achieved using functions from [Open3D](https://www.open3d.org/docs/release/tutorial/geometry/mesh.html) or through implementations by [MeshCNN](https://github.com/ranahanocka/MeshCNN/blob/master/scripts/dataprep/blender_process.py), which utilize the bpy library.
 
 ### 2. Coarse Segmentation Methods
